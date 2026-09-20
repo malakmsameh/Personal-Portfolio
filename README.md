@@ -16,9 +16,10 @@
 
 Welcome! I’m Malak Msameh, a Data Science graduate and software engineering student based in Amman, Jordan.
 
-I built this portfolio website to showcase my technical background, software engineering projects, and data science work in a way that goes far beyond a traditional CV. Rather than just listing my experiences on paper, this space is designed to give you an interactive, visually engaging look at what I create—highlighting real applications of code, data analysis, and problem-solving.
+I built this portfolio website to showcase my technical background, software engineering projects, and data science work in a way that goes far beyond a traditional CV. Rather than just listing my experiences on paper, this space is designed to give you an interactive, visually engaging look at what I create highlighting real applications of code, data analysis, and problem solving.
+Designing this portfolio in figma first allowed me to map out the users journey before bringing it to life with semantic HTML5 and CSS .
+building it was a great way to be able to blend design thinking and frontend development, which helped me create an interactive space to show who i am and my work.
 
-Designing this portfolio in Figma first allowed me to map out the user journey before bringing it to life with Semantic HTML5 and CSS3. Building it was a great way to blend design thinking with frontend development to create a polished, interactive space for my work.
 ---
 
 ## 🎨 Design
