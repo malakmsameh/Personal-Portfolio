@@ -207,7 +207,7 @@ a
 .hero_sectiom
 {
 	display: grid;
-	grid-template-columns: minmax(0, 1.2fr) minmax(240px, 320px);
+	grid-template-columns: minmax(0, 1.2fr) minmax(0, .7fr);
 	align-items: center;
 	gap: 3rem;
 	width: 100%;
@@ -230,8 +230,6 @@ a
 	letter-spacing: -0.02em;
 	border-radius: 8px;
 	background-color: transparent;
-
-	/* The mandatory transition effect behind my name*/
 	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
