@@ -3,22 +3,14 @@
 :root
 {
 	/* all the colors variables for dark theme*/
-	--bg-color: #0b0f17;
+	/* --bg-color: #0b0f17;
 	--card-bg: #131b2e;
 	--card-border: #1e293b;
 	--text-primary: #f8fafc;
 	--text-secondary: #94a3b8;
 	--accent-lavender: #cdaef5;
 	--accent-purple: #9333ea;
-	--accent-glow: #a855f7;
-	--container-width: 1000px;
-	--page-padding: 1.5rem;
-	--section-space: 5rem;
-}
-
-/* ---------- Light theme variables ---------- */
-body:has(#theme-toggle:checked)
-{
+	--accent-glow: #a855f7; */
 	--bg-color: #f3ebfc;
 	--card-bg: #e6d5fa;
 	--card-border: #d4bcf7;
@@ -27,6 +19,32 @@ body:has(#theme-toggle:checked)
 	--accent-lavender: #581c87;
 	--accent-purple: #7e22ce;
 	--accent-glow: #9333ea;
+	--container-width: 1000px;
+	--page-padding: 1.5rem;
+	--section-space: 5rem;
+}
+
+/* ---------- Light theme variables ---------- */
+body:has(#theme-toggle:checked)
+{
+	/* --bg-color: #f3ebfc;
+	--card-bg: #e6d5fa;
+	--card-border: #d4bcf7;
+	--text-primary: #2e1065;
+	--text-secondary: #6b46c1;
+	--accent-lavender: #581c87;
+	--accent-purple: #7e22ce;
+	--accent-glow: #9333ea; */
+--bg-color: #0b0f17;
+	--card-bg: #131b2e;
+	--card-border: #1e293b;
+	--text-primary: #f8fafc;
+	--text-secondary: #94a3b8;
+	--accent-lavender: #cdaef5;
+	--accent-purple: #9333ea;
+	--accent-glow: #a855f7;
+
+
 }
 
 /* ---------- Reset ---------- */
@@ -232,7 +250,7 @@ a
 	padding: 0.2rem 0.5rem;
 	display: inline-block;
 	color: var(--accent-lavender);
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	line-height: 1.05;
 	font-weight: 800;
 	letter-spacing: -0.02em;
@@ -254,7 +272,7 @@ a
 {
 	margin: 0 0 1.25rem;
 	color: var(--accent-glow);
-	font-size: 1.4rem;
+	font-size: 2.4rem;
 	line-height: 1.3;
 	font-weight: 600;
 }
@@ -264,7 +282,7 @@ a
 	max-width: 550px;
 	margin: 0;
 	color: var(--text-secondary);
-	font-size: 1.15rem;
+	font-size: 1.30rem;
 	line-height: 1.65;
 	font-weight: 400;
 }
@@ -377,10 +395,14 @@ a
 
 .next
 {
+	/* margin-top: 10%; */
+	/* gap: 10%; */
 	color: var(--accent-lavender);
 	font-size: 0.9rem;
 	font-weight: 500;
-	text-align: center;
+	margin-left: 30%;
+	padding: 20%;
+	/* text-align: left; */
 }
 
 .scroll-link:hover .next
