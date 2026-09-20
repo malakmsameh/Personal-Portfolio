@@ -17,7 +17,7 @@
 }
 
 /* ---------- Light theme variables ---------- */
-body:has(#theme-toggle:checked)
+body:has(#light-mode:checked)
 {
 	--bg-color: #f3ebfc;
 	--card-bg: #e6d5fa;
@@ -155,7 +155,7 @@ a
 	transform: translateY(-2px);
 }
 
-.theme-toggle-btn
+.light-mode-btn
 {
 	flex: 0 0 auto;
 	display: flex;
@@ -171,32 +171,32 @@ a
 	transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-.theme-toggle-btn:hover
+.light-mode-btn:hover
 {
 	transform: translateY(-2px);
 	border-color: var(--accent-purple);
 }
 
-.theme-toggle-btn .moon-icon
+.light-mode-btn .moon-icon
 {
 	display: block;
 	color: var(--accent-lavender);
 	font-size: 1rem;
 }
 
-.theme-toggle-btn .sun-icon
+.light-mode-btn .sun-icon
 {
 	display: none;
 	color: #d97706;
 	font-size: 1.1rem;
 }
 
-#theme-toggle:checked ~ .container .theme-toggle-btn .moon-icon
+#light-mode:checked ~ .container .light-mode-btn .moon-icon
 {
 	display: none;
 }
 
-#theme-toggle:checked ~ .container .theme-toggle-btn .sun-icon
+#light-mode:checked ~ .container .light-mode-btn .sun-icon
 {
 	display:block;
 }
@@ -357,7 +357,7 @@ a
 }
 
 /* ---------- Scroll ---------- */
-.hero-scroll-cue-center
+.scroll-centring
 {
 	display: flex;
 	justify-content: center;
@@ -373,6 +373,16 @@ a
 	gap: 0.25rem;
 	color: inherit;
 	text-decoration: none;
+}
+
+.my-journy-button
+{
+	margin-top: 3%;
+	/* margin-left: 20%; */
+	padding: 1% 4% 1% 4%;
+	border-radius: 45%;
+	background-color: var(--card-bg);
+	border-color: var(--accent-purple);
 }
 
 .next
@@ -854,7 +864,7 @@ section
 		font-size: 0.78rem;
 	}
 
-	.theme-toggle-btn
+	.light-mode-btn
 	{
 		width: 40px;
 		height: 40px;
