@@ -47,8 +47,8 @@ html
 body
 {
 	min-width: 320px;
-	/* min-height: 100vdh; */
-	min-height: 550vh;
+	min-height: 100vdh;
+	/* min-height: 550vh; */
 	margin: 0;
 	/* padding: 0 0 8rem; */
 padding: 0 0 2rem;
