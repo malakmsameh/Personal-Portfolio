@@ -217,7 +217,7 @@ a
 	display: grid;
 	grid-template-columns: minmax(0, 1.2fr) minmax(240px, 320px);
 	align-items: center;
-	gap: 4rem;
+	gap: 3rem;
 	width: 100%;
 }
 
@@ -229,10 +229,10 @@ a
 .name
 {
 	margin: 0 0 0.5rem;
-	padding: 0.2rem 0.5rem;
+	padding: 0.1rem 0.6rem;
 	display: inline-block;
 	color: var(--accent-lavender);
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	line-height: 1.05;
 	font-weight: 800;
 	letter-spacing: -0.02em;
@@ -576,6 +576,49 @@ section
 {
 	color: var(--accent-purple);
 }
+
+.project-img
+{
+	min-height: 160px;
+	margin-bottom: 1.25rem;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-secondary);
+	font-size: 0.9rem;
+	text-align: center;
+	background: var(--bg-color);
+	border: 1px dashed var(--card-border);
+	border-radius: 12px;
+}
+
+/* Position the link container to the right */
+.project-card a[aria-label="GitHub"] {
+	display: flex;
+	text-decoration: none;
+	justify-content: flex-end;
+	margin-top: 1.5rem; /* Adds a bit of space above the icon */
+}
+
+/* Make the GitHub icon bigger and style its hover effect */
+.github-project {
+	font-size: 1.6rem; /* Adjust this value to make it bigger or smaller */
+	color: var(--accent-lavender);
+	transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.project-card a[aria-label="GitHub"]:hover .github-project {
+	color: var(--accent-glow);
+	transform: translateY(-2px);
+}
+
+/* .github-project */
+/* { */
+	/* text-align: right; */
+	/* justify-content: right; */
+	/* flex-direction: end; */
+/* } */
 
 .so_log_video
 {
