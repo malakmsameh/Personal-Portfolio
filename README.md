@@ -7,8 +7,7 @@
 
 ## 🔗 Live Link
 
-**Live Demo:**
-https://malakmsameh.github.io/Personal-Portfolio/
+[Live Demo](https://malakmsameh.github.io/Personal-Portfolio/)
 
 ### - used github pages to deploy my protfolio
 ---
@@ -17,149 +16,22 @@ https://malakmsameh.github.io/Personal-Portfolio/
 
 This project is a personal portfolio website created to present my professional background, technical skills, software engineering projects, and selected data science work in a simple and modern interface.
 
-The website was designed in **Figma** first and then implemented using **HTML5 and CSS3**.
-
-The portfolio includes:
-
-- A landing / hero section
-- A personal journey and background section
-- A technical stack section
-- A projects showcase
-- Social and contact links
-- Light and dark themes
-- Responsive layouts for different screen sizes
-- CSS animations, hover effects, and smooth scrolling
-
-The project focuses on keeping the implementation lightweight and using native HTML and CSS features rather than JavaScript frameworks.
-
----
-
-## ✨ Features
-
-### 🏠 Hero Section
-
-- Personal introduction
-- Professional title
-- Short professional statement
-- Profile image
-- Hobbies
-- Social media links
-- Animated "Explore my Journey" scroll indicator
-
-### 🧭 My Journey
-
-A short overview of my background in:
-
-- Data Science
-- Software Engineering
-- Data Analytics
-- SQL and Python
-- C/C++ system programming
-
-### 🛠️ Technical Stack
-
-The portfolio presents technologies and tools across different categories, including:
-
-**Languages & Development**
-- Python
-- JavaScript
-- C
-- C++
-- PHP
-- Laravel
-- React
-
-**Tools**
-- Git
-- GitHub
-- Linux
-- Ubuntu
-- Zsh
-- Vim
-- Power BI
-- Excel
-- PowerPoint
-- Figma
-- Bootstrap
-
-### 💻 Projects
-
-The portfolio currently showcases five projects:
-
-#### 1. minishell
-
-A Bash-like Unix shell implemented from scratch in C.
-
-- Process creation and execution
-- Pipes and redirections
-- Signal handling
-- Environment management
-
-#### 2. so_long
-
-A 2D game developed in C using the MiniLibX graphics library.
-
-- Map parsing
-- Player movement
-- Game logic
-- 2D graphical rendering
-
-#### 3. inception
-
-A containerized infrastructure project built using Docker.
-
-- Multi-container architecture
-- Nginx
-- WordPress
-- MariaDB
-- Containerized services
-
-#### 4. Uber Network Analysis
-
-A data science project applying social network analysis techniques to Uber trip data.
-
-- Graph-based data modeling
-- Network connectivity analysis
-- Pattern identification
-- Data visualization
-
-#### 5. Email Spam Classifier & Dashboard
-
-A Python-based text classification project combined with analytical reporting.
-
-- Spam classification
-- Text processing
-- Machine learning
-- Power BI dashboard metrics
-
 ---
 
 ## 🎨 Design
 
 The website was designed in **Figma** before development.
 
-The design includes:
-
-- 🌙 Dark mode
-- ☀️ Light mode
-- 📐 Wireframe planning
-- Responsive layout planning
-- Card-based content sections
-- Purple / lavender visual theme
 
 ### Figma Exports
 
-#### 🌙 Dark Mode
+[🌙 Dark Mode](https://www.figma.com/design/SY6tei7pPxN27LlXSeCuz2/protfolio?node-id=160-3541&t=7ExDZ8je9sPQHooV-1)
 
-![Portfolio Dark Mode](figma/mock/portfolio_dark.png)
 
-#### ☀️ Light Mode
+[☀️ Light Mode](figma/mock/protfolio_light.png)
 
-![Portfolio Light Mode](figma/mock/protfolio_light.png)
 
-#### 📐 Wireframe
-
-![Portfolio Wireframe](figma/wirefram/Wireframe.png)
+[📐 Wireframe](figma/wirefram/Wireframe.png)
 
 ---
 
@@ -183,62 +55,6 @@ personal_portfolio/
 └── images/
     └── avatar.jpg
 ```
-
----
-
-## 🧰 Technologies Used
-
-| Technology | Purpose |
-|------------|---------|
-| HTML5 | Semantic website structure |
-| CSS3 | Styling, layout, themes, animations, and responsiveness |
-| CSS Grid | Page and project layouts |
-| CSS Flexbox | Navigation, badges, social links, and component alignment |
-| CSS Variables | Theme colors and reusable styling values |
-| CSS `:has()` | CSS-only light/dark mode switching |
-| CSS `@keyframes` | Animated scroll indicator |
-| Font Awesome | Icons for social links and technologies |
-| Figma | UI design and wireframe creation |
-| Git | Version control |
-| GitHub | Repository hosting |
-
----
-
-## 🌗 Light & Dark Mode
-
-The portfolio includes a CSS-only theme switcher.
-
-The theme is implemented using:
-
-- CSS custom properties
-- A hidden checkbox
-- The CSS `:checked` state
-- The `:has()` selector
-
-No JavaScript is required for switching between the two themes.
-
----
-
-## 📱 Responsive Design
-
-The website is designed to adapt to:
-
-- 📱 Mobile screens
-- 📲 Tablet screens
-- 💻 Desktop screens
-
-Responsive behavior is achieved primarily through:
-
-- CSS Grid
-- Flexbox
-- Flexible widths
-- `clamp()`
-- Responsive sizing
-- Flexible spacing
-- Wrapping layouts
-
-The goal is to keep the layout usable and readable across different viewport sizes.
-
 ---
 
 # 🚀 How to Use
