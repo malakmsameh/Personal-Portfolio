@@ -18,6 +18,7 @@ Welcome! I’m Malak Msameh, a Data Science graduate and software engineering st
 
 I built this portfolio website to showcase my technical background, software engineering projects, and data science work in a way that goes far beyond a traditional CV. Rather than just listing my experiences on paper, this space is designed to give you an interactive, visually engaging look at what I create—highlighting real applications of code, data analysis, and problem-solving.
 
+Designing this portfolio in Figma first allowed me to map out the user journey before bringing it to life with Semantic HTML5 and CSS3. Building it was a great way to blend design thinking with frontend development to create a polished, interactive space for my work.
 ---
 
 ## 🎨 Design
@@ -27,14 +28,11 @@ The website was designed in **Figma** before development.
 
 ### Figma Exports
 
+[📐 Wireframe](https://www.figma.com/design/SY6tei7pPxN27LlXSeCuz2/protfolio?node-id=170-4184&t=7ExDZ8je9sPQHooV-1)
+
 [🌙 Dark Mode](https://www.figma.com/design/SY6tei7pPxN27LlXSeCuz2/protfolio?node-id=160-3541&t=7ExDZ8je9sPQHooV-1)
-[🌙 Dark Mode](figma/mock/portfolio_dark.png)
 
 [☀️ Light Mode](https://www.figma.com/design/SY6tei7pPxN27LlXSeCuz2/protfolio?node-id=152-3774&t=7ExDZ8je9sPQHooV-1)
-[☀️ Light Mode](figma/mock/protfolio_light.png)
-
-[📐 Wireframe](https://www.figma.com/design/SY6tei7pPxN27LlXSeCuz2/protfolio?node-id=170-4184&t=7ExDZ8je9sPQHooV-1)
-[📐 Wireframe](figma/wirefram/Wireframe.png)
 
 ---
 

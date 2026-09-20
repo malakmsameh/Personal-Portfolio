@@ -48,18 +48,12 @@ body
 {
 	min-width: 320px;
 	min-height: 100vdh;
-	/* min-height: 550vh; */
 	margin: 0;
-	/* padding: 0 0 8rem; */
-padding: 0 0 2rem;
-	/* overflow-x:auto; */
-
+	padding: 0 0 2rem;
 	background-color: var(--bg-color);
 	/* background dots that are drawn */
-	/* background-image: url("data:image/svg+xml,%3Csvg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239333ea' fill-opacity='0.15'%3E%3Ccircle cx='20' cy='30' r='1' /%3E%3Ccircle cx='80' cy='15' r='1' /%3E%3Ccircle cx='130' cy='45' r='1' /%3E%3Ccircle cx='45' cy='95' r='1' /%3E%3Ccircle cx='110' cy='120' r='1' /%3E%3Ccircle cx='50' cy='50' r='2' fill-opacity='0.2' /%3E%3Ccircle cx='120' cy='85' r='2' fill-opacity='0.2' /%3E%3Ccircle cx='95' cy='65' r='3.5' fill-opacity='0.1' /%3E%3C/g%3E%3C/svg%3E"); */
 	background-image: url("data:image/svg+xml,%3Csvg width='150' height='150' viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239333ea' fill-opacity='0.35'%3E%3Ccircle cx='20' cy='30' r='1' /%3E%3Ccircle cx='80' cy='15' r='1' /%3E%3Ccircle cx='130' cy='45' r='1' /%3E%3Ccircle cx='45' cy='95' r='1' /%3E%3Ccircle cx='110' cy='120' r='1' /%3E%3Ccircle cx='50' cy='50' r='2' fill-opacity='0.55' /%3E%3Ccircle cx='120' cy='85' r='2' fill-opacity='0.55' /%3E%3Ccircle cx='95' cy='65' r='3.5' fill-opacity='0.35' /%3E%3C/g%3E%3C/svg%3E");
 	background-repeat: repeat;
-
 	color: var(--text-primary);
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
 		Roboto, sans-serif;
@@ -98,7 +92,6 @@ a
 	width: 1px;
 	height: 1px;
 	opacity: 0;
-	/* pointer-events: none; */
 }
 
 /* ---------- Main container ---------- */
@@ -205,7 +198,6 @@ a
 .intro
 {
 	min-height: 80vh;
-	 /* min-height: 100vh; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -378,18 +370,28 @@ a
 .my-journy-button
 {
 	margin-top: 3%;
-	/* margin-left: 20%; */
-	padding: 1% 4% 1% 4%;
-	border-radius: 45%;
-	background-color: var(--card-bg);
-	border-color: var(--accent-purple);
+	padding: 0.8rem 2rem;
+	border-radius: 30px;
+	background: var(--accent-purple);
+	border: 1px solid var(--accent-lavender);
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0 0 15px color-mix(in srgb, var(--accent-glow) 50%, transparent);
+	transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.my-journy-button:hover
+{
+	transform: translateY(-2px);
+	background: linear-gradient(135deg, var(--accent-glow), var(--accent-purple));
+	box-shadow: 0 0 25px var(--accent-glow), 0 0 10px var(--accent-purple);
 }
 
 .next
 {
-	color: var(--accent-lavender);
-	font-size: 0.9rem;
-	font-weight: 500;
+	color: #fff;
+	font-size: 0.95rem;
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -409,11 +411,6 @@ a
 
 @keyframes bounceArrow
 {
-	/* 0%, 20%, 50%, 80%, 100%
-	{
-		transform: translateY(0);
-	} */
-
 	40%
 	{
 		transform: translateY(6px);
@@ -608,12 +605,12 @@ section
 	display: flex;
 	text-decoration: none;
 	justify-content: flex-end;
-	margin-top: 1.5rem; /* Adds a bit of space above the icon */
+	margin-top: 1.5rem;
 }
 
 /* Make the GitHub icon bigger and style its hover effect */
 .github-project {
-	font-size: 1.6rem; /* Adjust this value to make it bigger or smaller */
+	font-size: 1.6rem;
 	color: var(--accent-lavender);
 	transition: color 0.2s ease, transform 0.2s ease;
 }
@@ -622,13 +619,6 @@ section
 	color: var(--accent-glow);
 	transform: translateY(-2px);
 }
-
-/* .github-project */
-/* { */
-	/* text-align: right; */
-	/* justify-content: right; */
-	/* flex-direction: end; */
-/* } */
 
 .so_log_video
 {
@@ -714,8 +704,7 @@ section
 	transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
-.contact-form button:hover,
-.contact-form button:focus-visible
+.contact-form button:hover, .contact-form button:focus-visible
 {
 	background-color: var(--accent-glow);
 	transform: translateY(-2px);
@@ -981,7 +970,6 @@ section
 
 	.footer-social-media-icons
 	{
-		/* margin-top: rem; */
 		margin-bottom: 1.25rem;
 	}
 
